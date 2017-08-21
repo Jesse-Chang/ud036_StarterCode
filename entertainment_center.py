@@ -1,7 +1,7 @@
 import media
 import fresh_tomatoes
 
-# Create instance from class media.Movie
+# Create instance for each movie
 Harry_Potter_01 = media.Movie("Harry Potter and the Sorcerer's Stone",
                               "Rescued from the outrageous neglect of his"
                               " aunt and uncle, a young boy with a great"
@@ -72,7 +72,7 @@ Harry_Potter_08 = media.Movie("Harry Potter and the Deathly Hallows: Part 2",
                               " as the final battle rages on at Hogwarts.",
                               "https://tinyurl.com/ybn5z2rp",
                               "https://www.youtube.com/watch?v=jgpJoKDzoZ4")
-
+# set of movie to creat page
 movies = [Harry_Potter_01, Harry_Potter_02, Harry_Potter_03, Harry_Potter_04,
           Harry_Potter_05, Harry_Potter_06, Harry_Potter_07, Harry_Potter_08]
 
