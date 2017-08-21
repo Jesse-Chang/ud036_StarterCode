@@ -1,6 +1,7 @@
 import webbrowser
 
 
+# Create class Movie and define member
 class Movie():
     VAILD_RATINGS = ["G", "PG", "PG-13", "R"]
 
@@ -14,5 +15,6 @@ class Movie():
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
 
+# Show trailer by input youtube url
     def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
