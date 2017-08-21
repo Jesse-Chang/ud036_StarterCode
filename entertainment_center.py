@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+# Create instance from class media.Movie
 Harry_Potter_01 = media.Movie("Harry Potter and the Sorcerer's Stone",
                               "Rescued from the outrageous neglect of his"
                               " aunt and uncle, a young boy with a great"
